@@ -1,0 +1,29 @@
+div.whole{
+    background-color: beige;
+    height:20vh;
+
+}
+nav{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    font-size:  20px;
+    color:brown;
+
+}
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color:brown;
+    color:white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color:rgb(181, 88, 88);
+  }
